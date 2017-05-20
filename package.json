@@ -1,7 +1,7 @@
 {
-  "name": "list-me",
-  "version": "1.0.0",
-  "description": "A way for me to keep my lists",
+  "name": "listopia",
+  "version": "0.0.1",
+  "description": "A List management tool",
   "author": "Sushant J <sushant.or.j@gmail.com>",
   "private": true,
   "scripts": {
