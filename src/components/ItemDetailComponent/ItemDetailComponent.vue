@@ -6,7 +6,8 @@ export default {
   name: 'ItemDetailComponent',
   data () {
     return {
-      createdMsg: 'Created the ItemDetailComponent'
+      createdMsg: 'Created the ItemDetailComponent',
+      index: this.$route.params.itemId
     }
   }
 }

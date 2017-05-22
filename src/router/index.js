@@ -10,13 +10,13 @@ Vue.component('navbar', _NavBarComponent)
 export default new Router({
   routes: [
     {
-      path: '/',
       name: 'HomeComponent',
+      path: '/',
       component: HomeComponent
     },
     {
-      path: '/item',
       name: 'ItemDetailComponent',
+      path: '/item/:itemId',
       component: ItemDetailComponent
     }
   ]
