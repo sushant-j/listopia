@@ -1,0 +1,16 @@
+{
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ],
+  "name": "Listopia",
+  "start_url": "/",
+  "description": "A List management tool.",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3"
+}

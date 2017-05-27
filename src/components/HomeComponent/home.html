@@ -1,8 +1,8 @@
 <div class="home">
     <ul>
-      <li class="list-item" v-for="index in 50" @click="goToItem(index)">
+      <li class="list-item" v-for="(listItem, itemIndex) in list" @click="goToItem(itemIndex)">
         <img class="list-avatar" src="../../assets/ic_label_outline_black_24px.svg" alt="">
-        Item number {{index}}
+        {{itemIndex}}. {{listItem.name}} - {{listItem.desc}}
       </li>
     </ul>
   </div>

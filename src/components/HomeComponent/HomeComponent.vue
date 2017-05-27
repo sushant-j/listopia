@@ -7,7 +7,21 @@ export default {
   name: 'home',
   data () {
     return {
-      msg: 'Hello World!'
+      msg: 'Hello World!',
+      list: [
+        {
+          'name': 'List Item',
+          'desc': 'Something something'
+        },
+        {
+          'name': 'List Item',
+          'desc': 'Something something'
+        },
+        {
+          'name': 'List Item',
+          'desc': 'Something something'
+        }
+      ]
     }
   },
   methods: {
