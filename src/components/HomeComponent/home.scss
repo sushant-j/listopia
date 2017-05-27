@@ -1,8 +1,17 @@
+.home {
+  margin-top: 40px;
+}
+
 ul {
   list-style-type: none;
+  padding-top: 1rem;
 }
 
 .list-item {
-  height: 30px;
   margin: 0.5rem 0;
+  display: flex;
+}
+
+.list-avatar {
+  margin-right: 1rem;
 }
